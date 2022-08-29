@@ -2,7 +2,7 @@
 
 This project contains a working, but not final, version of the FORTRAN code and related articles in the docs folder.
 
-In the source code most of the REAL variables are implicitly declared. The original author (L. J. PRITCHARD) worked and ran the code on a Harris 800 computer that had a 48-bit data bus and floating point numbers with 39-bit signed mantissas and 8-bit signed exponents. You can observe vintage catalogs in folder .\docs\Harris.
+In the source code most of the REAL variables are implicitly declared. The original author (L. J. PRITCHARD) worked and ran the code on a Harris 800 computer that had a 48-bit data bus and floating point numbers with 39-bit signed mantissas and 8-bit signed exponents. You can observe vintage catalogs in folder ./docs/Harris.
 
 ## Compilation
 I compile 'ratd.f' with option -fdefault-real-8:
@@ -11,7 +11,7 @@ set the default real type to an 8 byte wide type. This option also affects the k
 https://gcc.gnu.org/onlinedocs/gfortran/Fortran-Dialect-Options.html
 
 ## An Eleven Parameter Axial Turbine Airfoil Geometry Model
-Please, read the article in the .\docs\ folder or from https://asmedigitalcollection.asme.org/GT/proceedings/GT1985/79382/V001T03A058/235951)
+Please, read the article in the ./docs folder or from https://asmedigitalcollection.asme.org/GT/proceedings/GT1985/79382/V001T03A058/235951)
 
 L. J. PRITCHARD - original author
 Senior Aerodynamicist
