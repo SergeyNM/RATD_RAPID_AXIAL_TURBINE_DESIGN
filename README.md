@@ -10,7 +10,7 @@ I compile 'ratd.f' with option -fdefault-real-8: set the default real type to an
 https://gcc.gnu.org/onlinedocs/gfortran/Fortran-Dialect-Options.html
 
 ## An Eleven Parameter Axial Turbine Airfoil Geometry Model. Turbomachinery Airfoil Geometry Model. ASME Paper No. 85-GT-219.
-Please, read the article in the ./docs folder or from https://asmedigitalcollection.asme.org/GT/proceedings/GT1985/79382/V001T03A058/235951)
+Please, read the article in the ./docs folder or from https://asmedigitalcollection.asme.org/GT/proceedings/GT1985/79382/V001T03A058/235951
 
 L. J. PRITCHARD - original author, Senior Aerodynamicist
 
