@@ -27,10 +27,13 @@ The author would like to thank Gerry Large, Jim McKenna, and Ron Pampreen whose 
 Pull requests are welcome.
 
 1. FIXME: 'SUBROUTINE TITLES'.
+
 Unfortunately, optical character recognition (OCR) of FORTRAN code in article's pdf file is bad. Simple copy-paste not possible. Visual comparison and manual editing is needed.
 
 2. TODO: Implement emulate output to CalComp plotter.
+
 For example, can be used:
+
 CALCOMP - PostScript Emulation of some CALCOMP Plotting Commands.
 
 https://people.sc.fsu.edu/~jburkardt/f77_src/calcomp/calcomp.html
