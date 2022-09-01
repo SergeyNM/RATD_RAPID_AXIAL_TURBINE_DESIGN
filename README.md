@@ -4,7 +4,12 @@ This project contains a working, but not final, version of the FORTRAN code and 
 
 In the source code most of the REAL variables are implicitly declared. The original author (L. J. PRITCHARD) worked and ran the code on a Harris 800 computer that had a 48-bit data bus and floating point numbers with 39-bit signed mantissas and 8-bit signed exponents. You can observe vintage catalogs in folder ./docs/Harris.
 
-## Compilation
+## Similar repository with implementation on Python
+The Python implementation of 'Rapid Axial Turbine Design algorithm (RATD), the original author (L. J. PRITCHARD)' can be obtained from the David Poves repository.
+
+https://github.com/DavidPoves/11-Parameters-Turbine-Blade-Generator
+
+## FORTRAN сompilation
 I compile 'ratd.f' with option -fdefault-real-8: set the default real type to an 8 byte wide type. This option also affects the kind of non-double real constants like 1.0. This option promotes the default width of DOUBLE PRECISION and double real constants like 1.d0 to 16 bytes if possible. If -fdefault-double-8 is given along with fdefault-real-8, DOUBLE PRECISION and double real constants are not promoted. Unlike -freal-4-real-8, fdefault-real-8 does not promote variables with explicit kind declarations.
 
 https://gcc.gnu.org/onlinedocs/gfortran/Fortran-Dialect-Options.html
